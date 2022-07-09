@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio pour tp3">
+    <meta name="keywords" content="Environnement de développement, TP3, portfolio">
+    <meta name="author" content="Jerome FOSSE">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio TP3</title>
+</head>
+<body>
+    <div id="container">
+    <header>
+        <h1>Portfolio TP3</h1>
+    </header>
+    <nav role="menubar">
+        <a href="index.html" role="menuitem" class="nav-color">Accueil</a>
+        <a href="exercice.html" role="menuitem">Exercice</a>
+        <a href="tp.html" role="menuitem">TP</a>
+        <a href="annexe.html" role="menuitem">Annexe</a>
+    </nav>
+    <main>
+           <img class="banniere" src="https://www.cmaisonneuve.qc.ca/wp-content/themes/cmaisonneuve/img/template/image_bg_landing.jpg" alt="bannière Collège de Maisonneuve">
+	   <h2>ENVIRONNEMENT DE DÉVELOPPEMENT WEB</h2>
+           <div class="grid">
+		<div class="sommaire grid-item col-4">
+                	<h4>Sommaire :</h4>	
+                    		<a href="#1">Partie 1: LES COMPOSANTS D'UN ORDINATEUR</a>
+                    		<a href="#2">Partie 2: LE PROTOCOLE HTTP</a>		
+				<a href="#3">Partie 3: LES SYSTÈMES D'EXPLOITATION</a>
+				<a href="#4">Partie 4: LA VIRTUALISATION</a>
+				<a href="#5">Partie 5: INTRODUCTION LINUX</a>
+				<a href="#6">Partie 6: LES COMMANDES AVEC LINUX</a>
+				<a href="#7">Partie 7: LES GESTIONNAIRES DE VERSION</a>
+				<a href="#8">Partie 8: LES ÉTAPES ET CREATION DÉPOT GIT</a>
+				<a href="#9">Partie 9: LES LANGAGES DE PROGRAMMATION</a>
+				<a href="#10">Partie 10: L'ENVIRONNEMENT DE DÉVELOPPEMENT ET DE TEST</a>
+				<a href="#11">Partie 11: INTRODUCTION À LA CYBERSÉCURITÉ</a>
+                </div>
+		<div class="content grid-item col-8">
+			<h3 id="1">Partie 1: LES COMPOSANTS D'UN ORDINATEUR</h3>
+			<ul>
+			       <li>Boîtiers </li>
+			       <li>Boites d’alimentation : </li>
+			       <li>Carte Mère : élément centrale, principale carte de circuits imprimés. </li>
+			       <li>Socket : support processeur</li>
+			       <li>Chipsets : gère les flux entre les composants 
+			            (▪ Pont nord : processeur, mémoire vive, carte graphique
+			            ▪ Pont sud : périphériques entrés et sorties)</li> 
+			       <li>Port PCI : connecte carte graphique, son et réseau </li>
+			       <li>Port ATA / SATA : connecte disques durs ou lecteurs optiques</li>
+			       <li>Port PS2, parallèle et série : connecte clavier, souris, imprimante, …</li>
+			       <li>Réseau : RJ45</li>
+			       <li>Multimédia : VGA, DVI, HDMI</li>
+			       <li>Processeur : Cerveau de l’ordinateur, lieu des calculs effectués par l’ordinateur. </li>
+			       <li>Système de refroidissement </li>
+			       <li>ROM : Mémoire morte, stockage de données indispensable au démarrage. </li>
+			       <li>RAM : Mémoire vive, stockage temporaire des données et programmes que le programme est en train d’utilisé. Mémoire volatile, le contenu s’efface. </li>
+			       <li>Périphériques d’entrée : Souris, clavier, scanner, appareil photo, …</li>
+			       <li>Périphériques de sortie : moniteurs, imprimantes, télécopieurs, casques, …</li>
+			       <li>Entrée et sortie : modem, disque dur, carte mémoire, USB.</li><br/>
+        		</ul>
+	                <h3 id="2">Partie 2: LE PROTOCOLE HTTP</h3>
+			<ul>
+				<li>Web évolutif : web 1.0 (site statique, informatif), web 2.0 (réseaux sociaux, échange), web 3.0 (web sémantique, recueille information utilisateur) et web 4.0 (web intelligent)</li> 
+			       	<li>URL : Uniform Resource Locator</li> 
+		  	        <li>Http : protocole qui permet le transfert de fichiers grâce à une chaine de caractères URL entre un navigateur et un serveur Web (requête/réponse)</li> 
+		       	        <li>Méthode GET :  Affichage </li> 
+			        <li>Méthode POST : Envoie</li> 
+				<li>Sites statiques : envoie de fichiers hébergés « tels quels » vers le navigateur </li> 
+				<li>Sites dynamiques : il met à jour les fichiers hébergés avant de les envoyer. Le résultat dépend des demandes effectuées.</li><br/> 
+        		</ul>
+	                <h3 id="3">Partie 3: LES SYSTÈMES D'EXPLOITATION</h3>
+			<ul>
+				<li> Code source : séquence d’instructions compréhensible par l’homme transformée en langage machine</li> 
+			        <li> Open source : disponible à tous </li> 
+		    	        <li> Android : open source développée par google </li> 
+				<li> iOS : fermé par Apple</li> 
+				<li> Linux </li> 
+			      	<li> HTC Dream : système d’exploitation Android utilisé sur différents appareils</li> 
+				<li> Unix : système d’exploitation non-propriétaire, c’est la base de tous les systèmes d’exploitation connu (linux, android, OS X, iOS)</li> 
+			        <li> Interpréteur de commandes : interprète les commandes et les transmet au système d’exploitation</li><br/>
+        		</ul>
+	                <h3 id="4">Partie 4: LA VIRTUALISATION</h3>
+			<ul>
+				<li>Faire fonctionner plusieurs systèmes d’exploitation et/ou applications sur une machine </li> 
+			        <li>Virtualisation des postes de travail : administrateur central, réseaux informatiques </li> 
+			        <li>Virtualisation des serveurs : conçus pour traiter un volume élevé de tâches spécifiques, cela permet aux ordinateurs d’effectuer diverses autres tâches. La virtualisation permet optimiser l’exécution</li> 
+			        <li>Hyperviseurs : Permet de faire cohabiter simultanément plusieurs systèmes d’exploitation, il est entre le matériel et les logiciels </li> 
+			        <li>Hyperviseur type 1 : directement sur la machine (source)</li> 
+			        <li>Hyperviseur type 2 : logiciel qui s’exécute à l’intérieur d’un système d’exploitation</li><br/>
+        		</ul>
+	                <h3 id="5">Partie 5: INTRODUCTION LINUX</h3>
+				<p>Arborescence et Répertoires :</p>
+				<ul>
+				      <li>/ : répertoire racine </li> 
+				      <li>/bin : utilitaire système standard, répertoire utilisateur, groupe,</li> 
+				      <li>/sbin : Exécutable système essentiels, répertoire système d’exploitation </li> 
+				      <li>/boot : programme d’amorçage</li> 
+				      <li>/dev : fichier pilotes de périphériques</li> 
+				      <li>/etc : configuration système machine</li> 
+				      <li>/home : répertoires personnels utilisateur </li> 
+				      <li>/lib : bibliothèques partagées</li> 
+				      <li>/media : point de montage des périphériques cd-rom, appareil photo, USB</li> 
+				      <li>/mnt : points de montage temporaires </li> 
+				      <li>/proc et /sys : Répertoire virtuel pour les informations système</li> 
+				      <li>/root : répertoire personnelle de l’utilisateur root</li> 
+				      <li>/tmp : stockage de données temporaires </li>  
+				      <li>/usr : données partageables et en lecture seule hiérarchie secondaire </li> 
+				      <li>/var : taille de fichiers imprévisible, données variables</li>  
+				      <li>/srv : données pour les services fournis par le système</li> 
+				      <li>/opt : répertoire d’applications, logiciel</li> 
+				</ul>
+				<p>Les chemins : </p>
+				<ul>
+				      <li>Path : emplacement unique vers un fichier ou un dossier dans un système de fichier </li> 
+				      <li>Absolu : chemin à partir du répertoire racine </li> 
+				      <li>Relatif : chemin à partir du répertoire de travail actuel</li><br/>
+        			</ul>
+	                <h3 id="6">Partie 6: LES COMMANDES AVEC LINUX</h3>
+				<p>Générale : </p>
+        			<ul>
+	                              <li>pwd : affiche le chemin d’accès </li>
+                                      <li>ls : affiche la liste des dossiers ou on se trouve</li>
+                                      <li>ls –l :  donne les détails des dossiers/ documents </li>
+                                      <li>cd nomDossier/ : entre dans le dossier</li>
+                                      <li>cd .. : retourne au dossier précédent </li>
+                                      <li>ctrl l : vide la fenêtre </li>
+                                      <li>su = passe en mode root (# : quitte le mode)</li>
+                                      <li>ctrl shift t : ouvre un 2ème terminal </li>
+        			</ul>
+	                        <p>Création de document / répertoire : </p>
+        			<ul>
+	                              <li>nano : crée un fichier texte ( ctrl o : enregistre, ctrl x : quitte le document)</li>
+                                      <li>mkdir nomDossier : crée un dossier</li>
+                                      <li>touch nomFichier : crée un fichier</li>
+                                      <li>touch -t 10251600 nomFichier : Change la date du fichier</li>
+        			</ul>
+	                        <p>Visualisation des fichiers : </p>
+        			<ul>
+	                              <li>more nomFichier : affiche le contenu du fichier dans le terminal</li>
+                                      <li>less nomFichier : affiche le contenu dans le fichier(q : sortir)</li>
+                                      <li>cat : visualiser des fichiers court. Pas de défilement </li>
+				</ul>
+				<p>Copier / Déplacer :</p>
+				<ul>
+				      <li>cp nomFichier nouveauNomfichier : copie et nomme le nouveau fichier </li> 
+				      <li>mv nomFichier nouveauNomFichier : renomme le document</li> 
+				      <li>mv -t nomDossier/ NomFichier nomFichier: déplace plusieurs fichiers dans un dossier</li> 
+				      <li>mv nomFichier nomDossier/ : Déplace un fichier dans un dossier </li> 
+				      <li>-f : permet d’écraser si même fichier et même nom</li> 
+				</ul>
+				<p>Suppression :</p>
+				<ul>
+				      <li>rm nomFichier : supprime le fichier</li> 
+				      <li>rm -rf = force la suppression du répertoire </li> 
+				      <li>rmdir : supprime un répertoire</li> 
+				      <li>rm -f nomFichier* : supprime les fichiers commençant par </li> 
+				</ul>
+				<p>Documentation linux : </p>
+				<ul>
+				      <li>ls --help : affiche un court message d’aide</li> 
+				      <li>man ls : page de manuel </li> 
+				      <li>man -k trace : effectue une recherche par mot clés </li> 
+				      <li>info -ls : structure plus robuste que man</li> 
+        			</ul>
+	                	<p>Visualiser les utilisateurs et les groupes :</p>
+				<ul>
+				      <li>etc/ : dossier utilisateur </li>
+				      <li>/etc/passwd : liste des utilisateurs</li> 
+				      <li>/etc/shadow : fichier mots de passe chiffrés</li> 
+				      <li>/etc/NomGroup : liste des groupes </li>
+				</ul>
+				<p>Création de Groupe et Utilisateur : </p>
+				<ul>
+				      <li>useradd / groupadd : ajout</li>
+				      <li>usermod / groupmod : modification</li>
+				      <li>userdel / groupdel : suppression</li> 
+				</ul>
+				<p>Exemple (ajout dans root) :</p>
+				<ul>
+				      <li>sudo groupadd groupe1 : creation du groupe1</li>
+				      <li>sudo useradd – m Alice : création de l’utilisateur Alice</li>
+				      <li>ls -l /home/ : donne les informations des utilisateurs avec date </li>
+				</ul>
+				<p>Téléchargement d’application sur Linux :</p>
+				<ul>
+				      <li>apt-get update : vérifie la mise à jour</li>
+				      <li>ping URL : test la connexion </li>
+				      <li>apt install wget : installe le package</li>
+				</ul>
+				<p>Installation d’application : </p>
+				<ul>
+				      <li>Aller sur le site de l’application</li>
+				      <li>apt update : mettre à jour</li>
+				      <li>apt install Name : permet d’installer (ex : snapd)</li>
+				      <li>snap install Name : installe l’application (ex : whatsdesk)</li>
+				      <li>Sortir de root et mettre nom (ex : whatsdesk)</li><br/>
+				</ul>
+			<h3 id="7">Partie 7: LES GESTIONNAIRES DE VERSION</h3>
+				<ul>
+				      <li>Programme qui permet de conserver un historique des modifications et des versions des fichiers</li>
+				      <li>3 fonctionnalités :
+				            ▪ Revenir à une version précédente du code si problème
+				            ▪ Suivre l’évolution
+				            ▪ Travail à plusieurs</li>
+				</ul>
+				<p>Git ou GitHub :</p>
+				<ul>
+				      <li>Git est un gestionnaire de version : dépôt local (sur la machine)</li>
+				      <li>GitHub est un service en ligne : dépôt distant</li><br/>
+        			</ul>
+	                <h3 id="8">Partie 8: LES ÉTAPES ET CREATION DÉPOT GIT</h3>
+				<p>Installation de Git :</p>
+				<ul>
+				      <li>apt-get update && apt-get upgrade : vérifie l’installation et si il y a des mises à jours</li> 
+				      <li>apt get install git: met en place git </li> 
+				</ul>
+				<p>Configuration de l’identité : </p>
+				<ul>
+				      <li>git config --global user.name “” : configuration de username</li> 
+				      <li>git config --global user.email “” : configuration du courriel</li> 
+				      <li>git config --list: Vérifier les paramètres</li> 
+				</ul>
+				<p>Cloner le projet de GitHub à l’ordinateur :</p>
+				<ul>
+				      <li>git clone http….web.git : adresse prise dans le projet GitHub </li> 
+				</ul>
+				<p>Pour créer une nouvelle version et l’envoyer sur GitHub :</p>
+				<ul>
+				      <li>git add nomFichier : index le fichier</li> 
+				      <li>git commit -m « texte » : explique l’étape faite (résumé)</li> 
+				      <li>git push : envoi le commit sur le dépôt distant</li> 
+				      <li>git log : permet de voir les commits réalisés</li> 
+				</ul>
+				<p>Création de branche :</p>
+				<ul>
+				      <li>git checkout NomBranche : basculement sur la branche.  </li> 
+				      <li>git branch : permet de montrer sur qu’elle branche on se trouve</li> 
+				      <li>git checkout -b NomNouvelBranch : créer une nouvelle branche et bascule sur cette branche</li> 
+				      <li>git merge NomFichier : fusion entre 2 branches </li><br/>
+        			</ul>
+	                <h3 id="9">Partie 9: LES LANGAGES DE PROGRAMMATION</h3>
+				<ul>
+			      	      <li>Langage populaire : Java, python, c# et c/++, php, javascript</li> 
+			              <li>Éditeurs de texte : Atom, bracket, visual studio code</li> 
+		      	              <li>IDE ou EDI: Environnement de Développement Intégré, c’est un ensemble d’outils qui permet d’augmenter la productivité.</li><br/>
+        			</ul>
+	                <h3 id="10">Partie 10: L'ENVIRONNEMENT DE DÉVELOPPEMENT ET DE TEST</h3>
+				<ul>
+			              <li>Architecture Client – Serveur : c’est une requête faite d’un client à un navigateur, c’est la communication entre le client et le serveur </li> 
+			              <li>PhpMyAdmin : interface de gestion de base de données MySql sur un serveur PHP. Elle permet de faire des requêtes comme les créations de table de données, insertions, mises à jours, suppression et modifications de structure. </li> 
+			              <li>MySQL :  stock les données dans des tables séparées. Les tables sont reliées par des relations définies, qui rendent possible la combinaison de données. </li> 
+			              <li>Apache : logiciel de serveur web gratuit et open-source. Il interprète les requêtes http arrivant sur le port et fourni une réponse.</li><br/> 
+        			</ul>
+	                <h3 id="11">Partie 11: INTRODUCTION À LA CYBERSÉCURITÉ</h3>
+				<ul>
+			              <li>Logiciel publicitaire : publicités envahissantes et indésirables</li> 
+			              <li>Logiciel espion : s’installe furtivement sur un ordinateur pour recueillir des informations sur l’utilisateur </li> 
+			              <li>Logiciel Rootkit : il est furtif qui permet aux pirates d’accéder à votre ordinateur à votre insu. Le pirate a un contrôle absolu sur l’appareil </li> 
+			              <li>logiciel Ransomware : est un logiciel qui empêche l’utilisateur d’accéder à leur système ou à leurs fichiers et exige une rançon. </li> 	
+		       		      <li>Un Ver : il s’exécute, se reproduit et se propage dans l’ordinateur. </li><br/>
+				</ul>
+			<a href="index.html">Revenir en haut de la page</a>
+           </div>
+    </main> 
+    <footer>© Copyright 2022 / Tous les droits sont réservés</footer>
+    </div>
+</body>
+</html>
+
