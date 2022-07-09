@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Roboto&family=Roboto+Mono&display=swap');
+
+html, body{
+    margin: 0;
+    height: 100%;
+}
+body{
+    background-color: #fff;
+    color: #313131;
+    font-family: 'Manrope', sans-serif;
+}
+main{
+    padding-bottom: 50px;
+    height: max-content;
+}
+h1{
+    display : none;
+}
+h2{
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #1d1e1e;
+}
+h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 1em;
+    background-color: #003e7e;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 1em;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    color: #003e7e;
+    text-align: center;
+}
+nav{
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    background-color: #1d1e1e;
+}
+nav a{
+    padding: 1em;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase; 
+    display: block;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+nav a:hover{
+    transition-duration: .3s;
+    background-color: #0079c2;
+    color: white;
+}
+.nav-color{
+    color: #0079c2;
+}
+.banniere{
+    width: 100%;
+    height: 280px;
+}
+.sommaire { 
+    background-color : #0079c2;
+    color:white;
+}
+.sommaire a{ 
+    display : block;
+    color:white;
+    padding : 10px;
+    text-decoration : none;
+    text-align : center;
+}
+.sommaire a:hover{ 
+    color:#003e7e;
+}
+.content p{
+    margin-top: 10px;
+    padding:0 15px;
+}
+.content li{
+    margin-left: 50px;
+}
+.grid { 
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-columns: repeat(12, [col] 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.col-4{
+    grid-column: span 4;
+    grid-row: auto;
+}
+.col-8{ 
+    grid-column: span 8;
+    grid-row: auto;
+}
+#container{
+    min-height: 100%;
+    position: relative;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #1d1e1e;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
