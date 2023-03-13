@@ -46,7 +46,7 @@
                 <div class="row">
                     <!-- Footer Location-->
                     <div class="col-xl-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-5">Information</h4>
+                        <h4 class="text-uppercase mb-4">Information</h4>
                         <p class="lead mb-3">Jérôme Fosse</p>
                         <p class="lead mb-3">H2K 2Z3, Montréal, Québec</p>
                         <p class="lead mb-3">+1 438 883 8595</p>
@@ -54,12 +54,13 @@
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-xl-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-5">Visite mon Linkedin</h4>
+                        <h4 class="text-uppercase mb-4">Visite</h4>
                         <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/jerome-fosse-web/" target="blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/jeromeFosse/" target="blank"><i class="fab fa-fw fa-github"></i></a>
                     </div>
                     <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase ">Menu</h4>
+                    <div class="col-xl-4 ">
+                        <h4 class="text-uppercase mb-0">Menu</h4>
                         <nav class="navbar bg-secondary" id="mainNav">
                             <div class="navbar-collapse" id="navbarResponsive">
                                 <ul class="navbar-nav ms-auto">
