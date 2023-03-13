@@ -18,6 +18,8 @@
             </div>
         </div>
     </section>
+
+    {{-- https://startbootstrap.com/previews/resume --}}
     <section class="page-section bg-primary text-white">
         <h2 class="page-section-heading text-center text-uppercase text-white">Mes compétences</h2>
         <!-- Icon Divider--> 
