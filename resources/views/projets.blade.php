@@ -115,7 +115,7 @@
                                     <p class="mb-4">Stampee est le premier projet complet réalisé lors de la formation.</p>
                                     <p class="row text-start">Frontend :</p>
                                     <ul class="row text-start">
-                                        <li>Création de livrables : analyse de devis, personas, cas d'utilisation, exploration de la concurrence et moonBoard.</li>
+                                        <li>Création de livrables : analyse de devis, personas, cas d'utilisation, exploration de la concurrence et moodBoard.</li>
                                         <li>Création de page (responsive) en HTML/CSS : produit, catalogue et accueil.</li>
                                         <li>Gestion de modal en JavaScript : cookies, image, connexion Principe de UI-UX : hiérarchie, contexte, accessibilité, rythme Optimisation, validation, performance et seo.</li>
                                     </ul>
